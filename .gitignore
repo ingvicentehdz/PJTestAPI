@@ -1,0 +1,38 @@
+# Carpeta bin y obj generadas por el compilador
+bin/
+obj/
+
+# Carpeta de archivos de publicación
+Publish/
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Production.json
+
+# Carpeta de paquetes de NuGet
+packages/
+
+# Archivos de registro y registros de errores
+*.log
+*.errors
+
+# Archivos de respaldo y temporales
+*.bak
+*.tmp
+
+# Archivos de Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Archivos de caché de ReSharper
+_ReSharper*/
+
+# Archivos de compilación
+*.dll
+*.exe
+*.pdb
+
+# Archivos de publicación de Visual Studio Code
+.vscode/
