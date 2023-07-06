@@ -21,7 +21,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 
 
-COPY --from=build-env-des /app/out .
+COPY --from=build-env-des /app/publish .
 
 
 EXPOSE 8080
